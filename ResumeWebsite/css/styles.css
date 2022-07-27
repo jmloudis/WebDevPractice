@@ -1,0 +1,182 @@
+
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    /* 1em - 16px || em & % - dynamically inherited || rem - root  */
+    font-size: 5rem; /* 5rem - 72px */
+    color: #8142e5;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #8142e5;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #C8B6E2;
+}
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #A8A4CE 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: #8142e5;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+
+.top-container h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #8142e5;
+}
+
+
+
+.top-container{
+    background-color: #898AA6;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.middle-container{
+    /* 100px top and bottom - 0 left and right */
+    margin: 100px 0; 
+}
+
+.bottom-container{
+    background-color: #898AA6;
+    padding: 50px 0 20px;
+}
+
+.cloud{
+    width:200px;
+}
+
+.mountain{
+    margin-top: 100px;
+    width: 600px;
+}
+
+#bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 200px;
+}
+
+#top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px
+}
+
+/* Middle Div */
+
+.profile-image{
+    border-radius: 50%;
+}
+
+.profile p{
+    text-align: center;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+.skill-row h3,p{
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+
+.skill-systems{
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-chili{
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-message{
+    text-align: center;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #A8A4CE;
+    background-image: -webkit-linear-gradient(top, #A8A4CE, #A8A4CE);
+    background-image: -moz-linear-gradient(top, #A8A4CE, #A8A4CE);
+    background-image: -ms-linear-gradient(top, #A8A4CE, #A8A4CE);
+    background-image: -o-linear-gradient(top, #A8A4CE, #A8A4CE);
+    background-image: linear-gradient(to bottom, #A8A4CE, #A8A4CE);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #C8B6E2;
+    background-image: -webkit-linear-gradient(top, #C8B6E2, #C8B6E2);
+    background-image: -moz-linear-gradient(top, #C8B6E2, #C8B6E2);
+    background-image: -ms-linear-gradient(top, #C8B6E2, #C8B6E2);
+    background-image: -o-linear-gradient(top, #C8B6E2, #C8B6E2);
+    background-image: linear-gradient(to bottom, #C8B6E2, #C8B6E2);
+    text-decoration: none;
+  }
+/* .design-description{
+    clear: left;
+}
+
+.chili-description{
+    clear: right;
+} */
+
+/* Bottom Div */
+
+.surname{
+    text-align: center;
+    color: #C8B6E2;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.footer-link:hover{
+    color: #C8B6E2;
+}
+
+
+

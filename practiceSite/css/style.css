@@ -1,0 +1,47 @@
+body{
+    background-color: #495C83;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1{
+    color: #A8A4CE;
+}
+
+h3{
+    color: #A8A4CE;
+}
+
+/* Class Selectors */
+
+.profile{
+    /* margin-right: 400px; */
+}
+
+.circular{
+    border-radius: 50%;
+}
+
+/* Id Selectors */
+
+#heading
+{
+    color: purple;
+}
+
+#top-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Psuedo Class */
+
+h1:hover{
+    background-color: gold;
+}
